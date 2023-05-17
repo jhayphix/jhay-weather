@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/jhay-weather/static/css/main.c5077f5b.css",
+    "main.js": "/jhay-weather/static/js/main.9cabb030.js",
+    "static/media/rain.jpeg": "/jhay-weather/static/media/rain.3bc26a22c45ce8118a15.jpeg",
+    "static/media/snow.jpeg": "/jhay-weather/static/media/snow.61feb5e0d34f6b6e525c.jpeg",
+    "static/media/fine.jpeg": "/jhay-weather/static/media/fine.b4a2faab9854079f249e.jpeg",
+    "static/media/storm.jpeg": "/jhay-weather/static/media/storm.cf500e86c8f242a955fc.jpeg",
+    "static/media/shine.jpeg": "/jhay-weather/static/media/shine.35feff112629984e1702.jpeg",
+    "static/media/fog.jpeg": "/jhay-weather/static/media/fog.a340c730649241fcf712.jpeg",
+    "static/media/clouds.jpeg": "/jhay-weather/static/media/clouds.0a7e65b176cfff0a1ffa.jpeg",
+    "static/media/snow.svg": "/jhay-weather/static/media/snow.97011862388c3b3e9123924ee3fcf8d7.svg",
+    "static/media/rain.svg": "/jhay-weather/static/media/rain.7cf1dfc61e4b5ff3dc5fee203286e58c.svg",
+    "static/media/storm.svg": "/jhay-weather/static/media/storm.77e7be236e431f4097480d7e9357b09b.svg",
+    "static/media/animated_shape.svg": "/jhay-weather/static/media/animated_shape.bd06b8276843c76b29fc.svg",
+    "static/media/shine.svg": "/jhay-weather/static/media/shine.3d3946a93c6ca1bd191367a471d22517.svg",
+    "static/media/humidity.svg": "/jhay-weather/static/media/humidity.af05ebfd9553ba30d5b84f7d8a024bbd.svg",
+    "index.html": "/jhay-weather/index.html",
+    "static/media/clouds.svg": "/jhay-weather/static/media/clouds.56fc031536a38f36166d200eeb6fc245.svg",
+    "static/media/default.svg": "/jhay-weather/static/media/default.56fc031536a38f36166d200eeb6fc245.svg",
+    "static/media/fog.svg": "/jhay-weather/static/media/fog.1aa5f4ea0205e688faea0f63ee861f91.svg",
+    "static/media/temperature_half.svg": "/jhay-weather/static/media/temperature_half.cd6d0c99c467ae491c03f40c179103fa.svg",
+    "static/media/temperature_high.svg": "/jhay-weather/static/media/temperature_high.391bf9c43276ea173c1407b8f3d4fdfc.svg",
+    "static/media/temperature_low.svg": "/jhay-weather/static/media/temperature_low.c22a623e5e2b60cc6e23eb7dee0e5055.svg",
+    "static/media/pressure.svg": "/jhay-weather/static/media/pressure.25be98e4d38a0b2392a2368804ef4eb9.svg",
+    "main.c5077f5b.css.map": "/jhay-weather/static/css/main.c5077f5b.css.map",
+    "main.9cabb030.js.map": "/jhay-weather/static/js/main.9cabb030.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5077f5b.css",
+    "static/js/main.9cabb030.js"
+  ]
+}
