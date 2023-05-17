@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.d-flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show {
+  border: 0.2px dotted gray;
+}
+.show_all * {
+  border: 0.3px dotted gray;
+}
+.show_bg {
+  background-color: var(--primary_color_2);
+}
+
+.text_capitalize {
+  text-transform: capitalize;
+}

@@ -1,0 +1,62 @@
+/* 
+  |----------------------------------------
+  | Themes
+  |----------------------------------------
+*/
+
+:root {
+  --primary_color_1: #0a163c; /* 2 */
+  --primary_color_2: rgba(16, 29, 65); /* 3 */
+  --primary_color_3: rgba(23, 33, 68); /* 1 */
+  --primary_color_4: #1c284a; /* 4 */
+
+  --secondary_color: rgba(115, 48, 241);
+  --accent_color: rgba(0, 173, 248);
+  --light_color: rgba(255, 255, 255);
+
+  --border_radius: 1rem;
+  --show_border: 0.3px dotted gray;
+}
+
+/* 
+  |----------------------------------------
+  | Background
+  |----------------------------------------
+*/
+.bg_primary_color_1 {
+  background-color: var(--primary_color_1) !important;
+  color: var(--light_color) !important;
+}
+.bg_primary_color_2 {
+  background-color: var(--primary_color_2) !important;
+  color: var(--light_color) !important;
+}
+.bg_primary_color_3 {
+  background-color: var(--primary_color_3) !important;
+  color: var(--light_color) !important;
+}
+.bg_primary_color_4 {
+  background-color: var(--primary_color_4) !important;
+  color: var(--light_color) !important;
+}
+
+.bg_secondary_color {
+  background-color: var(--secondary_color) !important;
+  color: var(--light_color) !important;
+}
+.bg_accent_color {
+  background-color: var(--accent_color) !important;
+  color: var(--light_color) !important;
+}
+
+/* 
+  |----------------------------------------
+  | Text
+  |----------------------------------------
+*/
+.text_secondary {
+  color: var(--secondary_color) !important;
+}
+.text_accent {
+  color: var(--accent_color) !important;
+}

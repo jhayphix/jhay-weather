@@ -1,0 +1,166 @@
+/* 
+  |----------------------------------------
+  | App layouts
+  |----------------------------------------
+*/
+#app_layout {
+  background-image: url("../images/svg/animated_shape.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.app_wrapper {
+  height: 100vh;
+  width: 100vw;
+  border-radius: 10px;
+}
+
+.app_container {
+  height: 90%;
+  width: 80%;
+  border-radius: 2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Create 3 columns with equal width */
+  grid-template-rows: auto auto auto; /* Create 3 rows with auto height */
+  grid-gap: 10px; /* Add some spacing between grid items */
+}
+
+/* 
+  |----------------------------------------
+  | Header
+  |----------------------------------------
+*/
+
+.header {
+  grid-row: 1 / span 2; /* Start at row 1 and span 2 rows */
+  grid-column: 1 / span 2; /* Start at column 2 and span 1 column */
+}
+
+/* 
+  |----------------------------------------
+  | Main
+  |----------------------------------------
+*/
+
+.main {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: var(--border_radius);
+
+  position: relative;
+
+  grid-row: 2 / span 2; /* Start at row 2 and span 2 rows */
+  grid-column: 1 / span 2; /* Start at column 1 and span 2 columns */
+  background-color: var(--primary_color_2);
+}
+
+.main .main_container {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  height: 30%;
+  width: 80%;
+  border-radius: var(--border_radius);
+
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+.main p {
+  margin: 0;
+}
+
+.main .weather_temp {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.main .weather_svg {
+  height: 50px;
+  width: 50px;
+}
+
+/* 
+  |----------------------------------------
+  | Aside
+  |----------------------------------------
+*/
+
+.aside {
+  position: relative;
+
+  grid-row: 1 / span 3; /* Start at row 1 and span 3 rows */
+  grid-column: 3 / span 1; /* Start at column 3 and span 1 column */
+}
+
+.aside .aside_container {
+  background-color: var(--primary_color_2);
+
+  height: 90%;
+  width: 95%;
+  border-radius: var(--border_radius);
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.aside .weather_svg_container {
+  height: 17%;
+  position: relative;
+}
+
+.aside .weather_svg {
+  height: 150px;
+  width: 150px;
+
+  position: absolute;
+  top: -3rem;
+  left: -1rem;
+}
+
+.aside .weather_name {
+  font-size: 1.5rem;
+  /* font-weight: normal; */
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+/* Aside components */
+.aside .weather_component_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.aside .weather_component_image {
+  height: 30px;
+  width: 30px;
+}
+
+.aside .weather_component_name,
+.aside .weather_component_value {
+  font-weight: lighter;
+  margin: 0;
+}
+
+.aside .footer {
+  background: var(--primary_color_4);
+  border-radius: var(--border_radius);
+
+  width: 100%;
+
+  position: absolute;
+  bottom: -7%;
+  left: 0;
+}
+/* background-image: url("../images/weather/shine.jpeg"); */
